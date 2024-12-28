@@ -9,15 +9,23 @@
             "SantanderPaySlip\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SantanderPaySlip\\SantanderPaySlipServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
-            "name": "Rogério Nascimento"
+            "name": "Rogério Nascimento"            
         }
     ],
     "require": {
         "php": ">=8.2",
         "guzzlehttp/guzzle": "^7.9",
-        "illuminate/cache": "^11.36"
+        "illuminate/cache": "^11.36",
+        "illuminate/console": "^11.36"
     },
     "require-dev": {
         "phpunit/phpunit": "^11.5"
